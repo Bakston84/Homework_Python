@@ -15,4 +15,5 @@ def integerPowersTwo(n):
         i = i * 2
    
 n = checkingInput(f'Введите число > ')
+print(f'Целые степени двойки числа {n}: ')
 integerPowersTwo(int(n))
